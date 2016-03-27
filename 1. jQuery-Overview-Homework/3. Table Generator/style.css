@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px 30px;
+    background-color: #76923C;
+}
+
+
+th:first-letter {
+    text-transform: uppercase;
+}

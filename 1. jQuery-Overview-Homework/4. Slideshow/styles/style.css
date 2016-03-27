@@ -1,0 +1,33 @@
+#container {
+    width: 500px;
+    height: 360px;
+    background: lightgreen;
+    border: 1px solid;
+}
+
+#btn-left {
+    position: absolute;
+    top:180px;
+    left: 20px;
+}
+
+#btn-right {
+    position: absolute;
+    top:180px;
+    left: 470px;
+}
+
+.active {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 60px;
+}
+
+.inactive {
+    width: 400px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    left: 60px;
+}

@@ -1,0 +1,11 @@
+.inline {
+    display: inline-block;
+}
+
+.inputs {
+    margin: 10px 50px 0px 0px;
+}
+
+.labels {
+    margin-right: 10px;
+}
