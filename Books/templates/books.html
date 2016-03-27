@@ -1,0 +1,10 @@
+<ul>
+    {{#books}}
+    <li data-id="{{bookId}}">
+        {{title}} - {{author}} - {{isbn}}
+        <button class="deleteBook" type="button">Delete Book</button>
+        <button class="editBook" type="button">Edit Book</button>
+    </li>
+    {{/books}}
+</ul>
+<button id="addNewBook" type="button">Add new book</button>

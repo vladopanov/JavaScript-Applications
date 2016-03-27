@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/q/q.js"></script>
+    <script src="node_modules/sammy/lib/min/sammy-0.7.6.min.js"></script>
+    <script src="node_modules/mustache/mustache.js"></script>
+</head>
+<body>
+    <div id="container">
+        <button type="button" id="loginButton">Login</button>
+        <button type="button" id="registerButton">Register</button>
+    </div>
+    <script src="scripts/Models/requester.js"></script>
+
+    <script src="scripts/Models/userModel.js"></script>
+    <script src="scripts/Models/booksModel.js"></script>
+
+    <script src="scripts/Views/userViews.js"></script>
+    <script src="scripts/Views/booksViews.js"></script>
+
+    <script src="scripts/Controllers/userController.js"></script>
+    <script src="scripts/Controllers/booksController.js"></script>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

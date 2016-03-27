@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poll</title>
+</head>
+<body onload="countDown()">
+    <div id="timer"></div>
+    <form>
+        <div style="margin-top: 20px">
+            <span id="first">Кой е най-високият връх в България?</span><br/>
+            <input onclick="radioClicked(this)" type="radio" name="peak" value="Мусала">Мусала
+            <input onclick="radioClicked(this)" type="radio" name="peak" value="Ботев">Ботев
+            <input onclick="radioClicked(this)" type="radio" name="peak" value="Снежанка">Снежанка
+            <input onclick="radioClicked(this)" type="radio" name="peak" value="Тодорка">Тодорка
+        </div>
+        <div style="margin-top: 20px">
+            <span id="second">Коя година е създадена първата българска държава?</span><br/>
+            <input onclick="radioClicked(this)" type="radio" name="creation" value="681">681
+            <input onclick="radioClicked(this)" type="radio" name="creation" value="546">546
+            <input onclick="radioClicked(this)" type="radio" name="creation" value="1180">1180
+            <input onclick="radioClicked(this)" type="radio" name="creation" value="1764">1764
+        </div>
+        <div style="margin-top: 20px">
+            <span id="third">Кое от изброените ястия е с доказан български произход?</span><br/>
+            <input onclick="radioClicked(this)" type="radio" name="dish" value="Сарми">Сарми
+            <input onclick="radioClicked(this)" type="radio" name="dish" value="Шопска салата">Шопска салата
+            <input onclick="radioClicked(this)" type="radio" name="dish" value="Мусака">Мусака
+            <input onclick="radioClicked(this)" type="radio" name="dish" value="Шкембе чорба">Шкембе чорба
+        </div>
+        <input onclick="displayAnswers()" type="button" value="Submit" style="margin-top: 20px">
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
